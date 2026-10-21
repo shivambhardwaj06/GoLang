@@ -2,7 +2,18 @@ package main
 
 import "fmt"
 
+const PI = 3.14
+
+var naam = "string"  // allowed 
+
+
+
+// naam := "shivam"  not allowed
 func main(){
+
+	// Println(naam); undefined ??
+	println(naam)
+
 	fmt.Println("Hello World")
 
 	// simple values
@@ -52,6 +63,17 @@ func main(){
 	println(price3)
 
 	// constants 
+
+	const name6 = "golang"
+// 	name6 = "Golang" - not allowed
+
+	// const 
+	const(
+		port = 5000
+		host = "localhost"
+	)
+
+	println(port,host)
 
 
 
