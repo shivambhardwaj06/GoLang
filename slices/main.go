@@ -12,7 +12,7 @@ func main() {
 	// unitialized slice is nil
 	var nums []int 
 	fmt.Println("nums:", nums) // []
-	fmt.Println(nums == nil) // true
+	fmt.Println("nums is nil:", nums == nil) // true
 	fmt.Println("length of nums:", len(nums)) // 0
 	var nums2 = make([]int,5) // [0 0 0 0 0]
 	fmt.Println("nums2:", nums2)
