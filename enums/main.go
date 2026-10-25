@@ -1,5 +1,6 @@
 package main
 import "fmt"
+
 // enumerated types 
 type OrderStatus int // custom type
 
